@@ -1,0 +1,98 @@
+body, html, #root, .app, .container {
+  width: 100%;
+  height: 100%;
+}
+
+
+.container {
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: top;
+  background-image: url("E:\user\Desktop\TE sem2\JSfrontend project\frontendlogin\bgimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  min-height: 65%;
+  max-width: 35%;
+  border: solid 2px #1189de;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman';
+  color :rgb(0, 0, 0);
+  font-size: 28px;
+ /* grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  background-color: #9de1f1;
+  position:relative;
+  top:200px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  margin-left: 20%;
+}
+
+.loginForm {
+ box-sizing: border-box;
+ justify-content: center;
+ width: 100%;
+ max-width: 400px;
+ padding-left: 20px;
+ padding-right: 15px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+
+.inputField {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-bottom: 25px;
+ margin-top: 20px;
+}
+
+.input {
+ box-sizing: border-box;
+ outline: none;
+ border: solid 2px #1189de;
+ border-radius: 4px;
+ color: #292929;
+ width: 100%;
+ padding: 12px;
+ font-size: 14px;
+ background: rgba(255, 255, 255, 1);
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+
+.submitButton {
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+}
+
+
+.btn {
+ width: 100%;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: 10px;
+ margin-bottom: 25px;
+ min-width: 280px;
+ color: #565656;
+ padding: 12px;
+ font-size: 14px;
+ font-weight: bold;
+ border: solid 2px #1189de;
+ border-radius: 4px;
+ background: rgb(226, 231, 231);
+ cursor: pointer;
+
+}
